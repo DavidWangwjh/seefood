@@ -1,0 +1,19 @@
+{
+	"name": "xcode build server",
+	"version": "0.2",
+	"bspVersion": "2.0",
+	"languages": [
+		"c",
+		"cpp",
+		"objective-c",
+		"objective-cpp",
+		"swift"
+	],
+	"argv": [
+		"/opt/homebrew/bin/xcode-build-server"
+	],
+	"workspace": "/Users/davidwang/Desktop/SWE/xcode-projects/seefood/seefood.xcodeproj/project.xcworkspace",
+	"build_root": "/Users/davidwang/Library/Developer/Xcode/DerivedData/seefood-ezclrgznmiviiphfxtzqdlyuzdim",
+	"scheme": "seefood",
+	"kind": "xcode"
+}
