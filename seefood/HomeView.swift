@@ -19,9 +19,10 @@ struct HomeView: View {
 
                 // Calendar View
                 CalendarView(calendarItems: $calendarItems, selectedDate: $selectedDate)
-                    .frame(height: 300)
                     .padding()
 
+                Spacer()
+                
                 HStack {
                     Button(action: {
                         isCameraPresented = true
@@ -140,3 +141,8 @@ struct AnalysisResultView: View {
         }
     }
 } 
+
+
+#Preview {
+    HomeView()
+}

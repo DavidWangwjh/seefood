@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct seefoodApp: App {
+    @State private var modelData = ModelData()
+
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            ContentView()
+            .environment(modelData)
         }
     }
 }
